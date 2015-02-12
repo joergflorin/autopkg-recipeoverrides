@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.Geogebra</string>
+	<key>Input</key>
+	<dict>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Mathematik</string>
+			<key>description</key>
+			<string>GeoGebra (www.geogebra.org) ist eine kostenlose dynamische Mathematiksoftware für SchülerInnen und LehrerInnen aller Altersstufen. Sie verbindet Geometrie, Algebra, Tabellen, Zeichnungen, Statistik und Analysis in einem einfach zu bedienenden Softwarepaket. GeoGebra hat außerdem eine stark wachsende Community mit Millionen von NutzerInnen aus fast allen Ländern der Welt. GeoGebra ist die weltweit führende Mathematiksoftware und unterstützt innovatives Lehren und Lernen in den Fächern Mathematik, Informatik, Naturwissenschaften und Technik rund um den Globus.</string>
+			<key>developer</key>
+			<string>International GeoGebra Institute</string>
+			<key>display_name</key>
+			<string>GeoGebra</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.joshua-d-miller.autopkg.munki.geogebra</string>
+</dict>
+</plist>
