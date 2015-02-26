@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.Skype</string>
+	<key>Input</key>
+	<dict>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>Mit Skype bleibt die Welt im Gespräch. Durch kostenlose Anrufe, Nachrichten und die Übertragung beliebiger Dateien.</string>
+			<key>display_name</key>
+			<string>Skype</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+            <key>category</key>
+            <string>Soziale Netze</string>
+            <key>developer</key>
+            <string>Microsoft</string>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.munki.Skype</string>
+</dict>
+</plist>
